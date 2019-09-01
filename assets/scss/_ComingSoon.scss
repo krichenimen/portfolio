@@ -1,0 +1,31 @@
+.coming-soon{
+  width: 400px;
+  height: 220px;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  h1{
+      font-family:Montserrat-Black, sans-serif;
+      font-size: 60px;
+      color:$color-text;
+      margin-bottom: 5%;
+    }
+    hr{
+      height: 19px;
+      background-image: linear-gradient(90deg, $gradient);
+      width: 269px;
+      position: relative;
+      top: 66px;
+      left: 89px;
+      z-index: -1;
+    }
+    .btn{
+      padding-top: 2%;
+      display: block;
+      margin: 0 auto;
+    }
+}
+
