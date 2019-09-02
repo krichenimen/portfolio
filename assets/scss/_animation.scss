@@ -19,6 +19,29 @@
 	}
 }
 
+@keyframes animationcommingletter {
+	0% {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	10% {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	30% {
+		transform: translate(-73px, 3px) rotate(36deg);
+	}
+	50% {
+		transform: translate(-141px, -72px) rotate(72deg);
+	}
+	70% {
+		transform: translate(-83px, -122px) rotate(108deg);
+	}
+	85% {
+		transform: translate(-40px, -72px) rotate(144deg);
+	}
+	100% {
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+}
 
 // Shapes
 .shapes {
@@ -29,26 +52,26 @@
 	}
 	.shape_2 {
 		position: absolute;
-		top: 22%;
-		left: 41%;
-		animation: animationFramesOne 15s infinite linear;
+		top: 41%;
+		left: 47%;
+		animation: animationcommingletter 15s infinite linear;
 	}
 	.shape_3 {
-        position: absolute;
-        top: 69%;
-        left: 21%;
-        animation: animationFramesOne 25s infinite linear;
-    }
-    .shape_4 {
-        position: absolute;
-        top: 80%;
-        left: 74%;
-        animation: animationFramesOne 30s infinite linear;
-    }
-    .shape_5 {
-        position: absolute;
-        top: 50%;
-        left: -1%;
-        width: 180px;
-    }
+		position: absolute;
+		top: 69%;
+		left: 21%;
+		animation: animationFramesOne 25s infinite linear;
+	}
+	.shape_4 {
+		position: absolute;
+		top: 80%;
+		left: 74%;
+		animation: animationFramesOne 30s infinite linear;
+	}
+	.shape_5 {
+		position: absolute;
+		top: 50%;
+		left: -1%;
+		width: 180px;
+	}
 }
