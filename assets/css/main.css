@@ -304,8 +304,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .shapes .shape_2 {
   position: absolute;
-  top: 41%;
-  left: 47%;
+  top: 45%;
+  left: 45.333%;
   animation: animationcommingletter 15s infinite linear;
 }
 .shapes .shape_3 {
